@@ -33,9 +33,9 @@ reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpywar
 
 ```bash
 sudo apt update
+sudo apt install bzip2 tar gcc make perl git
 sudo apt install linux-headers-generic
 sudo apt install linux-headers-$(uname -r)
-sudo apt install bzip2 tar gcc make perl git
 ```
 
 ### Configuring Ubuntu
