@@ -47,4 +47,4 @@ sudo apt install net-tools hping3
 
 ### Configuring the Lab Network
 
-Create a separate NAT Network in VirtualBox for isolated communication between the Windows and Ubuntu VMs.
+A dedicated NAT Network (`SOC101`) was created in VirtualBox to allow isolated communication between the Windows and Ubuntu VMs. This ensures that potentially malicious files cannot reach the external network, which is critical for safe malware analysis.
