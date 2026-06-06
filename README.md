@@ -6,5 +6,5 @@ A collection of cybersecurity labs covering SOC analysis, penetration testing, m
 
 | Lab | Description |
 |-----|-------------|
-| [SOC-Analyst-Lab](./SOC-Analyst-Lab) | SOC analysis, malware analysis and incident response |
+| [SOC-Analyst-Lab](./SOC-Analyst-Lab) |  Lab setup, phishing analysis, network security, endpoint security, SIEM, threat intelligence, digital forensics, and incident response  |
 
