@@ -41,16 +41,10 @@ sudo apt update
 sudo apt install linux-headers-generic
 sudo apt install linux-headers-$(uname -r)
 sudo apt install bzip2 tar gcc make perl git
+sudo apt install -y net-tools hping3
 ```
 
 ![Ubuntu Desktop](06_ubuntu_desktop.png)
-
-### Configuring Ubuntu
-
-```bash
-sudo apt update
-sudo apt install net-tools hping3
-```
 
 ### Configuring the Lab Network
 
