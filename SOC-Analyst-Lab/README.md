@@ -14,10 +14,9 @@ A hands-on SOC analyst lab covering malware analysis, phishing investigation, ne
 ### Installing Windows
 
 - [Windows 11 Enterprise Evaluation](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise)
-
-### Configuring Windows
-
 - [Git](https://git-scm.com/)
+  
+### Configuring Windows
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $true
@@ -26,7 +25,6 @@ Set-MpPreference -DisableBlockAtFirstSeen $true
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
 ```
 
-> ZIP Password: `LCty2JmHQLB3uc9VxjeohENr`
 
 ### Installing Ubuntu
 
