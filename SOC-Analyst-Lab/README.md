@@ -1,6 +1,6 @@
 # SOC Analyst Lab
 
-Hands-on SOC analyst lab built for the PSAA certification.
+A hands-on SOC analyst lab covering malware analysis, phishing investigation, network security, endpoint security, SIEM, threat intelligence, digital forensics, and incident response.
 
 ## Lab Setup
 
@@ -24,9 +24,9 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 Set-MpPreference -DisableScanningNetworkFiles $true
 Set-MpPreference -DisableBlockAtFirstSeen $true
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
-git clone https://github.com/MalwareCube/SOC101.git
 ```
 
+> ZIP Password: `LCty2JmHQLB3uc9VxjeohENr`
 
 ### Installing Ubuntu
 
@@ -35,20 +35,17 @@ git clone https://github.com/MalwareCube/SOC101.git
 
 ```bash
 sudo apt update
-sudo apt install bzip2 tar gcc make perl git
 sudo apt install linux-headers-generic
 sudo apt install linux-headers-$(uname -r)
+sudo apt install bzip2 tar gcc make perl git
 ```
 
 ### Configuring Ubuntu
 
 ```bash
-sudo apt install git
-git clone https://github.com/MalwareCube/SOC101.git
-chmod +x ./install.sh
-./install.sh
+sudo apt update
+sudo apt install net-tools hping3
 ```
-
 
 ### Configuring the Lab Network
 
