@@ -1,6 +1,6 @@
 # Cybersecurity Home Lab
 
-A collection of cybersecurity labs covering SOC analysis, penetration testing, threat intelligence, and incident response.
+A collection of cybersecurity labs covering SOC analysis, penetration testing, malware analysis, threat intelligence, digital forensics, and incident response.
 
 ## Labs
 
