@@ -18,7 +18,6 @@ Hands-on SOC analyst lab built for the PSAA certification.
 ### Configuring Windows
 
 - [Git](https://git-scm.com/)
-- [MalwareCube/SOC101](https://github.com/MalwareCube/SOC101)
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $true
