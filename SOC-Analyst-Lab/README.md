@@ -2,20 +2,6 @@
 
 Hands-on SOC analyst lab built for the PSAA certification.
 
-## Course Outline
-
-| # | Topic | Status |
-|---|-------|--------|
-| 01 | Lab Setup | ✅ Done |
-| 02 | Security Operations Fundamentals | ⏳ Pending |
-| 03 | Phishing Analysis | ⏳ Pending |
-| 04 | Network Security | ⏳ Pending |
-| 05 | Endpoint Security | ⏳ Pending |
-| 06 | SIEM | ⏳ Pending |
-| 07 | Threat Intelligence | ⏳ Pending |
-| 08 | Digital Forensics | ⏳ Pending |
-| 09 | Incident Response | ⏳ Pending |
-
 ## Lab Setup
 
 ### Installing Oracle VM VirtualBox
@@ -35,23 +21,13 @@ Hands-on SOC analyst lab built for the PSAA certification.
 - [MalwareCube/SOC101](https://github.com/MalwareCube/SOC101)
 
 ```powershell
-# Disable real-time protection
 Set-MpPreference -DisableRealtimeMonitoring $true
-
-# Disable scanning of network files
 Set-MpPreference -DisableScanningNetworkFiles $true
-
-# Disable block at first sight
 Set-MpPreference -DisableBlockAtFirstSeen $true
-
-# Disable Windows Defender AntiSpyware
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
-
-# Clone course repository
 git clone https://github.com/MalwareCube/SOC101.git
 ```
 
-> ZIP Password: `LCty2JmHQLB3uc9VxjeohENr`
 
 ### Installing Ubuntu
 
@@ -74,7 +50,6 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
-> ZIP Password: `LCty2JmHQLB3uc9VxjeohENr`
 
 ### Configuring the Lab Network
 
