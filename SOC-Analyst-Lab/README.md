@@ -11,14 +11,14 @@ A hands-on SOC analyst lab covering malware analysis, phishing investigation, ne
 - [Install VirtualBox on Linux](https://phoenixnap.com/kb/install-virtualbox-on-ubuntu)
 - [Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-![VirtualBox Manager](01_virtualbox_manager.png)
+![VirtualBox Manager](screenshots/01_virtualbox_manager.png)
 
 ### Installing Windows
 
 - [Windows 11 Enterprise Evaluation](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise)
 - [Git](https://git-scm.com/)
 
-![Windows Desktop](07_windows_desktop.png)
+![Windows Desktop](screenshots/07_windows_desktop.png)
 
 ### Configuring Windows
 
@@ -29,7 +29,7 @@ Set-MpPreference -DisableBlockAtFirstSeen $true
 reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
 ```
 
-![PowerShell Defender](03_powershell_defender.png)
+![PowerShell Defender](screenshots/03_powershell_defender.png)
 
 ### Installing Ubuntu
 
@@ -44,12 +44,12 @@ sudo apt install bzip2 tar gcc make perl git
 sudo apt install -y net-tools hping3
 ```
 
-![Ubuntu Desktop](06_ubuntu_desktop.png)
+![Ubuntu Desktop](screenshots/06_ubuntu_desktop.png)
 
 ### Configuring the Lab Network
 
 A dedicated NAT Network (`SOC101`) was created in VirtualBox to allow isolated communication between the Windows and Ubuntu VMs. This ensures that potentially malicious files cannot reach the external network, which is critical for safe malware analysis.
 
-![NAT Network](02_nat_network.png)
-![Windows Ping](04_windows_ping.png)
-![Ubuntu Ping](05_ubuntu_ping.png)
+![NAT Network](screenshots/02_nat_network.png)
+![Windows Ping](screenshots/04_windows_ping.png)
+![Ubuntu Ping](screenshots/05_ubuntu_ping.png)
